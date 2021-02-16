@@ -1,0 +1,373 @@
+#main
+{
+    
+    margin: 0 auto;
+    width: 1520px;
+    
+}
+#header
+{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    position:-webkit-sticky;
+
+}
+#header-logo
+{
+    float: left;
+  /*  background-color: red;*/
+    height: 80px;
+    width: 620px;
+    margin: 0;
+}
+#yts-logo
+{
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin-left: 26px;
+    margin-top: -20px;
+   
+    border-radius: 60px;
+    
+}
+#header-text
+{
+    float: left;
+    padding-left: 40px;
+    padding-top: 13px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: FreeMono, monospace;
+    color: silver;
+}
+#header-search
+{
+    float: left;
+    height: 80px;
+    width: 320px;
+   /* background-color: aqua;*/
+}
+#header-search input[type="search"]
+{
+    color: red;
+    border: silver solid 2px;
+    border-radius: 20px;
+    width: 230px;
+    height: 35px;
+    background: none;
+    float: left;
+    margin-top: 24px;
+    margin-left: 180px;
+    padding-left: 40px;
+}
+#search-logo
+{
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin-top: 34px;
+    margin-left: -220px;
+}
+#nav-bar
+{
+    height: 80px;
+    width: 580px;
+    /*background-color: orange;*/
+    float: left;
+}
+
+#nav ul
+{
+    float: left;
+    display: inline;
+    margin-left: 44px;
+    margin-top: 32px;
+}
+
+#nav ul li
+{
+    display: inline;
+   
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+#nav ul li a
+{
+    text-decoration: none;
+    color: slategray;
+    font-weight: bold;
+   
+}
+#slider
+{
+    float: left;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+
+}
+#slider h2
+{
+    color: white;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+#slider input[type="search"]
+{
+    width: 711px;
+    float: left;
+    padding: 10px;
+    margin-left: 270px;
+    background-color: rgb(59, 57, 57);
+    border-radius: 2px;
+    border: 1px solid silver;
+}
+#slider button[type="submit"]
+{
+    width: 105px;
+    height: 33px;
+    padding: 3px;
+    margin-top: 1px;
+    margin-left: 12px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: green;
+    border: none;
+    border-radius: 11px;
+}
+#slider-header
+{
+    height: 30px;
+    width: 100%;
+  /*  background-color: indianred;*/
+    float: left;
+    margin-top: 40px;
+}
+.thead
+{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 40px;
+}
+#slider-header label
+{
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 80px;
+}
+#slider-name
+{
+    margin-left: 190px;
+}
+#slider-button
+{
+    height: 55px;
+    width: 100%;
+    float: left;
+   /* background-color: aqua;*/
+}
+#slider-button select
+{
+    width: 70px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: silver;
+    background-color: rgb(53, 51, 51);
+    border: none;
+    border-radius: 3px;
+    margin-left: 50px;
+}
+#slider-move
+{
+    margin-left: 220px;
+}
+#slider-down
+{
+    height: 130px;
+    width: 100%;
+    float: left;
+  background-color: rgb(44, 42, 42);
+}
+#slider-down h2
+{
+    color: rgb(51, 230, 51);
+    font-weight: bold;
+    margin-left: 560px;
+}
+#buttons
+{
+    margin-left: 490px;
+}
+#slider-down button
+{
+    margin-left: 6px;
+    height: 29px;
+    width: 35px;
+    background-color: rgb(26, 27, 26);
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    
+}
+#second-div
+{
+    margin-left: 80px;
+}
+#content
+{
+    height: 500px;
+    width: 100%;
+    float: left;
+  /* background-color: violet;*/
+   background-color: rgb(26, 24, 24);
+}
+.content-one
+{
+    height: 320px;
+    width: 200px;
+  /*  background-color: yellow;*/
+    float: left;
+    margin: 50px;
+    
+    
+}
+.content-one img{
+    border: rgb(240, 235, 235) 4px solid;
+    
+       
+}
+.images:hover
+{
+    border: rgb(121, 240, 11) 4px solid;
+}
+
+
+
+#content-name
+{
+    height: 80px;
+    width: 100%;
+   /* background-color: red;*/
+    float: left;
+    margin-top: -40px;
+    margin-left: -20px;
+}
+
+.contnt-nam
+{
+    width: 150px;
+    height: 60px;
+  /*  background-color: wheat;*/
+    float: left;
+    margin-left: 130px;
+    font-size: 10px;
+    font-family: inherit;
+    color: white;
+    text-shadow: black 1px 1px; 
+}
+.contnt-nam h2
+{
+    margin-top: -3px;
+}
+.contnt-nam p
+{
+    margin-top: -10px;
+    color: silver;
+}
+.hide-show
+{
+    margin-top: -334px;
+    color: rgb(166, 255, 0);
+    font-size: 22px;
+    border: 3px green;
+    display: none;
+
+    height: 331px;
+}
+.hide-show label
+{
+    margin-left: 76px;
+    margin-top: -130px;
+    font-size: 77px;
+}
+.hide-show h2
+{
+    margin-left: 76px;
+    font-size: 22px;
+}
+.hide-show h1
+{
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+.hide-show button
+{
+    margin-left: 30px;
+    height: 36px;
+    width: 150px;
+    border-radius: 3px;
+    background-color: rgb(11, 189, 11);
+    border: none;
+    color: white;
+    
+}
+.content-one:hover .hide-show
+{
+    display: block;
+    
+}
+.img-cover
+{
+    background-color: black;
+    height: 320px;
+    width: 230px;
+}
+
+#content .content-one :hover .images
+{
+    border:green 3px solid;
+}
+.content-one:hover .images
+{
+    border: rgb(121, 240, 11) 5px solid;
+    background-color: rgb(rgb(83, 63, 63), rgb(77, 94, 77), blue);
+}
+/*
+.hide-show label:hover img
+{
+    border: rgb(121, 240, 11) 4px solid;
+}
+
+
+.div-in
+{
+    height: 400px;
+    width: 100%;
+   
+    float: left;
+    margin-left: 2px;
+    margin-top: -498px;
+}
+.div-1
+{
+    height: 320px;
+    width: 200px;
+    background-color: rgb(0,0,255,0.22);
+    float: left;
+    margin: 50px;
+    margin-left: 46px;
+    margin-top: 45px;
+    border: 5px greenyellow solid;
+    display: none;
+}
+#main:hover .div-1
+{
+    display: block;
+}
+*/
